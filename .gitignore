@@ -1,0 +1,13 @@
+# Dataset 
+/COBRE_Dataset/
+
+# Python & Jupyter Caching
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+env/
+
+# OS
+.DS_Store
+Thumbs.db
