@@ -7,12 +7,13 @@ import nibabel as nib
 import torch
 import torch.nn as nn
 import torch.optim as optim
+
 from torch.utils.data import Dataset, DataLoader
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import LabelEncoder
 from sklearn.utils.class_weight import compute_class_weight
 
-print("--- Initializing Cloud Training Pipeline on AWS ---")
+print("--- Initializing Cloud Training Pipeline on AWS EC2 ---")
 
 # 1. Dataset Configuration for Cloud Paths
 data_dir = os.environ.get("DATA_DIR", "../COBRE_Dataset")
