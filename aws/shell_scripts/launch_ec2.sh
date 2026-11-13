@@ -13,4 +13,4 @@ aws ec2 run-instances \
     --block-device-mappings '[{"DeviceName":"/dev/xvda","Ebs":{"VolumeSize":40,"VolumeType":"gp3"}}]' \
     --tag-specifications 'ResourceType=instance,Tags=[{Key=Name,Value=cobre-cnn-gpu}]'
 
-echo "--- Instance launch command executed successfully! ---"
+echo "--- Instance launch command executed successfully, can start ---"
