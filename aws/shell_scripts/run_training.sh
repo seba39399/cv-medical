@@ -11,7 +11,7 @@ export DATA_DIR="../COBRE_Dataset"
 # O si prefieres montarlo desde una ruta absoluta en la instancia:
 # export DATA_DIR="/home/ec2-user/COBRE_Dataset"
 
-echo "--- [3/3] Launching Cloud Training Pipeline ---"
+echo "---- [3/3] Launching Cloud Training Pipeline ----"
 python3 ../aws/train_cloud.py
 
-echo "--- Training execution finished successfully! ---"
+echo "---- Training execution finished successfully! ----"
