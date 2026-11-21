@@ -6,7 +6,7 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
     PYTHONUNBUFFERED=1 \
     DATA_DIR=/data/COBRE_Dataset
 
-# Set the working directory inside the container
+# Set the working directory inside the container of the app
 WORKDIR /app
 
 # Install minimal system dependencies for scientific and neuroimaging packages
